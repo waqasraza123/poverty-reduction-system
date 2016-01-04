@@ -1,0 +1,69 @@
+{
+  "projectlist": [
+    {
+      "name": "Problem Sharing",
+      "url": "./problem_sharing",
+        "table":"cw_users"
+    },
+    {
+      "name": "Food sustenance via Livestock and Poultry",
+      "url": "./food_sustenance",
+        "table":"mr_users"
+    },
+    {
+      "name": "Donations",
+      "url": "./donations",
+        "table":"mh_users"
+    },
+    {
+      "name": "Academic Scholarships",
+      "url": "./academic_scholorships",
+        "table":"null"
+    },
+    {
+      "name": "School Renovation",
+      "url": "./school_renovation",
+        "table":"mmm_users"
+    },
+    {
+      "name": "Person to Person Ecommerce",
+      "url": "./p2p_ecommerce",
+        "table":"hw_users"
+    },
+    {
+      "name": "Drixel",
+      "url": "./drixel",
+        "table":"an_users"
+    },
+    {
+      "name": "School Management System",
+      "url": "./school_management",
+        "table":"sr_users"
+    },
+    {
+      "name": "Donation through Quizzes",
+      "url": "./d2quiz",
+        "table":"null"
+    },
+    {
+      "name": "NGO",
+      "url": "./ngos",
+        "table":"am_users"
+    },
+    {
+      "name": "Blood Donation",
+      "url": "./blood_donations",
+        "table":"ua_users"
+    },
+    {
+      "name": "Eployment",
+      "url": "./maps",
+        "table":"null"
+    },
+    {
+      "name": "Visulaizations",
+      "url": "./vizs",
+        "table":"null"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+ul{
+	background:red;
+}
+
+li{
+	background:transparent;
+	list-style: none;
+	float:left
+}
+
+li ul{
+	background:blue;
+	display:none;
+}
+
+li ul li{
+	background:yellow;
+	display:block;
+}
+
+li ul li p{
+	display:block;
+}
+
+ul>li:hover #innerUL{
+	display:block;
+}

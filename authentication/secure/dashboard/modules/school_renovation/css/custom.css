@@ -1,0 +1,119 @@
+body{
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    background: #3498db;
+    opacity: .4;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.content{
+    z-index: 2;
+}
+.listing,.sidebar{
+    background: rgba(255,255,255,.9);
+    box-shadow: 2px 2px 5px #333;
+}
+.sidebar{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.white_overlay {
+    background: rgba(255,255,255,.9);
+    padding: 15px;
+}
+h2.center{
+    text-align: center;
+    color: #3498db;
+    margin: 5px;
+}
+.form.white_overlay{
+    padding: 35px;
+}
+.form .row {
+    margin-bottom: 8px;
+}
+.image img {
+    max-width: 100%;
+}
+.listing {
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+}
+.progress {
+    box-shadow: 2px 2px 2px #333;
+    background: #e3e3e3;
+}
+input.amount{
+    margin-bottom: 10px;
+}
+input.btn.btn-primary.amount {
+    margin: auto;
+    display: block;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.form-control:focus {
+    font-size: 1.05em;
+    height: inherit;
+}
+nav form button.btn.btn-primary {
+    margin-top: -9px;
+}
+a.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+  .fb-share-button
+{
+transform: scale(1.5);
+-ms-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+-o-transform: scale(1.5);
+-moz-transform: scale(1.5);
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+}
+.rating .modal-content {
+    padding: 20px;
+    background: #3498db;
+}
+.share {
+    float: right;
+    position: absolute;
+    right: 50px;
+    bottom: 35px;
+}
+p.red.rate {
+    color: red;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.rating span {
+    color: #fff !important;
+}
+.rating span.white {
+    color: #fff;
+    padding: 10px;
+}
+.rating h3{
+    color:#fff;
+}
+.rating input[type="submit"] {
+    background: orange;
+    color: #fff;
+    width: 100%;
+}

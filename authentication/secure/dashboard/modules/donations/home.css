@@ -1,0 +1,178 @@
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+}
+
+@keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+body > div {
+    margin: 20px auto 0;
+	padding:2px;
+    color:orange;
+    line-height:1;
+    transform-origin:80% 500px;
+	position:fixed;
+	top:20%;
+	left:101%;
+}
+
+#pic1 > div {
+    animation: inner-circle 20s linear infinite;
+}
+
+#pic2 > div {
+    animation: inner-circle 20s linear 4s infinite;
+}
+
+#pic3 > div {
+    animation: inner-circle 20s linear 8s infinite;
+}
+
+#pic4 > div {
+    animation: inner-circle 20s linear 12s infinite;
+}
+
+#pic5 > div {
+    animation: inner-circle 20s linear 16s infinite;
+}
+
+#pic6 > div {
+    animation: inner-circle 20s linear 2s infinite;
+}
+
+#pic7 > div {
+    animation: inner-circle 20s linear 6s infinite;
+}
+
+#pic8 > div {
+    animation: inner-circle 20s linear 10s infinite;
+}
+
+#pic9 > div {
+    animation: inner-circle 20s linear 14s infinite;
+}
+
+#pic10 > div {
+    animation: inner-circle 20s linear 18s infinite;
+}
+
+
+div{
+background:#222;
+}
+
+#pic1{
+    animation: circle 20s linear infinite;
+}
+
+#pic2{
+	    animation: circle 20s linear 4s infinite;
+}
+
+#pic3{
+	    animation: circle 20s linear 8s infinite;
+}
+
+#pic4{
+	    animation: circle 20s linear 12s infinite;
+}
+
+#pic5{
+	    animation: circle 20s linear 16s infinite;
+}
+
+#pic6{
+    animation: circle 20s linear 2s infinite;
+}
+
+#pic7{
+	    animation: circle 20s linear 6s infinite;
+}
+
+#pic8{
+	    animation: circle 20s linear 10s infinite;
+}
+
+#pic9{
+	    animation: circle 20s linear 14s infinite;
+}
+
+#pic10{
+	    animation: circle 20s linear 18s infinite;
+}
+.rotatingImg{
+	width:200px
+}
+
+#containingDiv
+{
+	border-radius:50%;
+	width:850px;
+	height:850px;
+	background:#222;
+	position:fixed;
+	top:19%;
+	left:73%;
+	z-index:-1;
+	border:2px solid rgb(37,37,37);
+	box-shadow: 0 0 20px #000, 0 0 12px #fff;
+}
+
+body{
+background: rgb(37,37,37) url("pics/1.jpg") no-repeat;
+background-size: 100% 800px;
+background-position: 0px -100px;
+}
+
+#LoginDiv
+{
+	background: rgba(20,20,20,0.8);
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10%;
+	width:100%;
+	position:fixed;
+	top:70%;
+	left:0%	;
+	z-index:-2;
+	font-size:20px;
+}
+
+#LoginDiv> div{
+	padding:10px;
+	padding-left:20px;
+	width:410px;
+}
+
+input{
+  height: 30px;
+  font-size: 18px;
+  background: rgb(37,37,37);
+  border: 2px solid rgb(67,67,67);
+  color:#ddd;
+}
+  
+  h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	color: #FFE200;
+	text-decoration:underline;
+	text-shadow: 0 0 10px #000, 0 0 5px #fff;
+  }
+  
+  input[type="submit"] 
+  {
+	
+	background:orange;
+	padding:5px;
+	padding-left:15px;
+	padding-right:15px;
+	border: 1px solid orange;
+	border-radius: 7px;
+	font-size:18px;
+	
+  }

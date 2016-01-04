@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900);
+body{
+  color:#000!important;
+  font-family: 'Raleway', sans-serif;
+}
+.green{
+    color:#28BB9C;
+}
+.grey{
+    color:#bbb;
+}
+.thin{
+
+  font-size:13px;
+}
+header{
+  margin-top:50px;
+}
+.content{
+  margin:10% auto;
+  color:#fff;
+  font-size:20px;
+}
+.content h1{
+  font-size:100px;
+  font-weight:900;
+  letter-spacing: -5px;
+}
+.content a{
+  text-decoration: underline;
+}
+.well{
+  background-color:rgba(0,0,0,0.6);
+  color:#aaa;
+}
+.well legend{
+  color:#fff;
+}
+.card{
+  background:#fff;
+  padding:20px;
+  margin:20px 0px;
+  margin-right:20px;
+  min-height:200px;
+  text-align: center;
+  transition:all 0.3s;
+  box-sizing: border-box;
+  transition:all 0.4s;
+}
+.card:hover{
+  cursor: pointer;
+  background:#333;
+  color:#18BC9C;
+}
+.navbar-brand{
+  font-size:40px;
+  letter-spacing: -1px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+.copyright{
+  font-size:13px;
+}

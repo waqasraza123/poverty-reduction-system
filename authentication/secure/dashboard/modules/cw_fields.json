@@ -1,0 +1,527 @@
+{
+	"item": [{
+		"name": "cw_project",
+		"url": "./problem_sharing",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "username",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "User Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"templateOptions": {
+				"type": "tel",
+				"label": "Phone Number",
+				"placeholder": "Format:923121234567",
+				"required": true,
+                "pattern": "([9][2][3])([0-9]{9})"
+			}
+		}, {
+			"key": "isdonor",
+			"type": "select",
+             "defaultValue": "1",
+			"templateOptions": {
+				"label": "Donor/Recevier",
+				"required": true,
+				"options": [{
+					"name": "Donor",
+					"value": "1"
+				}, {
+					"name": "Receiver",
+					"value": "0"
+				}]
+			}
+		}]
+	}, {
+		"name": "mr_project",
+		"url": "./food_sustenance",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "username",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "User Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"templateOptions": {
+				"type": "tel",
+				"label": "Phone Number",
+				"placeholder": "Format: 923121234567",
+				"required": true,
+                "pattern": "([9][2][3])([0-9]{9})"
+			}
+		}, {
+			"key": "role",
+			"type": "select",
+             "defaultValue": "1",
+			"templateOptions": {
+				"label": "Acceptor/Contributor",
+				"required": true,
+				"options": [{
+					"name": "Acceptor",
+					"value": "0"
+				}, {
+					"name": "Contributor",
+					"value": "1"
+				}]
+			}
+		}]
+	}, {
+		"name": "mh_project",
+		"url": "./donations",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "donor",
+			"type": "radio",
+            "defaultValue": "1",
+			"templateOptions": {
+				"label": "You are?",
+				"required": true,
+				"options": [{
+					"name": "Donor",
+					"value": "1"
+				}, {
+					"name": "Acceptor",
+					"value": "0"
+				}]
+			}
+		}, {
+			"key": "address",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Address",
+				"placeholder": "Enter your address",
+				"required": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"ngModelAttrs": {
+				"myCustomValue": {
+					"attribute": "ng-intl-tel-input"
+				}
+			},
+			"templateOptions": {
+				"type": "text",
+				"label": "Contact Number",
+				"placeholder": "Format: 923121234567",
+				"required": true,
+                "pattern": "([9][2][3])([0-9]{9})"
+			}
+		}]
+	}, {
+		"name": "mm_project",
+		"url": "./school_renovation",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"ngModelAttrs": {
+				"myCustomValue": {
+					"attribute": "ng-intl-tel-input"
+				}
+			},
+			"templateOptions": {
+				"type": "text",
+				"label": "Contact Number",
+				"placeholder": "Format: 923121234567",
+				"required": true,
+                "pattern": "([9][2][3])([0-9]{9})"
+			}
+		}, {
+			"key": "occupation",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Occupation",
+				"placeholder": "Your Occupation",
+				"required": true
+			}
+		}, {
+			"key": "bio",
+			"type": "textarea",
+			"templateOptions": {
+				"label": "Your Bio",
+				"placeholder": "Maximum 500 words",
+
+				"required": true
+			}
+		}, {
+			"key": "more_info",
+			"type": "textarea",
+			"templateOptions": {
+				"label": "More Info",
+				"placeholder": "Maximum 500 words",
+
+				"required": true
+			}
+		}]
+	}, {
+		"name": "hw_project",
+		"url": "./p2p_ecommerce",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"ngModelAttrs": {
+				"myCustomValue": {
+					"attribute": "ng-intl-tel-input"
+				}
+			},
+			"templateOptions": {
+				"type": "text",
+				"label": "Contact Number",
+				"placeholder": "Format: 923121234567",
+				"required": true
+			}
+		}]
+	}, {
+		"name": "aw_project",
+		"url": "./ngos",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "ngoname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "NGO NAME",
+				"placeholder": "Enter your NGO name",
+				"required": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"ngModelAttrs": {
+				"myCustomValue": {
+					"attribute": "ng-intl-tel-input"
+				}
+			},
+			"templateOptions": {
+				"type": "text",
+				"label": "Contact Number",
+				"placeholder": "Format: 923121234567",
+				"required": true,
+                "pattern": "([9][2][3])([0-9]{9})"
+			}
+		}, {
+			"key": "ngoemail",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "NGO Email Address",
+				"placeholder": "Enter email",
+				"required": true
+			}
+		}]
+	}, {
+		"name": "ua_project",
+		"url": "./blood_donations",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "phonenumber",
+			"type": "input",
+			"ngModelAttrs": {
+				"myCustomValue": {
+					"attribute": "ng-intl-tel-input"
+				}
+			},
+			"templateOptions": {
+				"type": "text",
+				"label": "Contact Number",
+				"placeholder": "Format: 923121234567",
+				"required": true,
+                "pattern": "([9][2][3])([0-9]{9})"
+			}
+		}, {
+			"key": "role",
+			"type": "radio",
+            "defaultValue": "1",
+			"templateOptions": {
+				"label": "You are?",
+				"required": true,
+				"options": [{
+					"name": "Donor",
+					"value": "1"
+				}, {
+					"name": "Member",
+					"value": "0"
+				}]
+			}
+		}]
+	}, {
+		"name": "sr_project",
+		"url": "./school_management",
+		"ncount": 4,
+		"fields": [{
+			"key": "firstname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your First Name",
+				"placeholder": "Enter your first name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "lastname",
+			"type": "input",
+			"templateOptions": {
+				"type": "text",
+				"label": "Your Last Name",
+				"placeholder": "Enter your last name",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "email",
+			"type": "input",
+			"templateOptions": {
+				"type": "email",
+				"label": "Email address",
+				"placeholder": "Enter email",
+				"required": true,
+				"disabled": true
+			}
+		}, {
+			"key": "role",
+			"type": "radio",
+            "defaultValue": "1",
+			"templateOptions": {
+				"label": "You are?",
+				"required": true,
+				"options": [{
+					"name": "Student",
+					"value": "student"
+				}, {
+					"name": "Teacher",
+					"value": "teacher"
+				}]
+			}
+		}]
+	}]
+
+}

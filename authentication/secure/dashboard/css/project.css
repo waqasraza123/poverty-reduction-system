@@ -1,0 +1,162 @@
+body{
+	background-color:#ecf0f1;
+}
+#sharing{
+	height:150px;
+	width:200px;
+	float:left;
+	background-color:#e74c3c;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#sharing:hover,#sustenance:hover, #donation:hover, #scholarship:hover, #ecommerce:hover, #drixel:hover, #ngo:hover, 
+#dquiz:hover, #eployment:hover, #visual:hover, #bdonation:hover{
+	padding-bottom:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+	opacity:0.8;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#renovation:hover,#smsystem:hover{
+	padding-bottom:15px;
+	margin-top:5px;
+	opacity:0.8;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#sustenance{
+	height:150px;
+	width:370px;
+	float:left;
+	margin-left:5%;
+	background-color:#1abc9c;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#donation{
+	height:150px;
+	width:200px;
+	float:left;
+	margin-left:5%;
+	background-color:#3498db;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#scholarship{
+	height:150px;
+	width:250px;
+	float:left;
+	background-color:#4B77BE;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#renovation{
+	height:150px;
+	width:230px;
+	float:left;
+	margin-left:5%;
+	background-color:#c0392b;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#ecommerce{
+	height:150px;
+	width:270px;
+	float:left;
+	margin-left:5%;
+	background-color:#8e44ad;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#drixel{
+	height:150px;
+	width:200px;
+	float:left;
+	margin-left:5%;
+	background-color:#f1c40f;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#smsystem{
+	height:150px;
+	width:300px;
+	float:left;
+	margin-left:5%;
+	background-color:#16a085;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#dquiz{
+	height:150px;
+	width:260px;
+	float:left;
+	background-color:#f1c40f;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#ngo{
+	height:150px;
+	width:200px;
+	float:left;
+	margin-left:2%;
+	background-color:#27ae60;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#bdonation{
+	height:150px;
+	width:250px;
+	float:left;
+	margin-left:2%;
+	background-color:#D64541;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}
+
+#eployment{
+	height:150px;
+	width:200px;
+	float:left;
+	margin-left:2%;
+	background-color:#2980b9;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}				 
+                     
+#visual{
+	height:150px;
+	width:190px;
+	float:left;
+	margin-left:2%;
+	background-color:#8e44ad;
+	color:#ecf0f1;
+	transition: padding 0.25s, margin 0.25s;
+	cursor:pointer;
+}                    
+ .jumbotron{
+	 height:160px !important;
+	 font-weight:bold !important;
+ }                  
