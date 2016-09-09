@@ -15,15 +15,15 @@ if (!isset($_SESSION["session_name"])){
 ?>
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="//npmcdn.com/api-check@latest/dist/api-check.js"></script>
+        <script src="//unpkg.com/api-check@latest/dist/api-check.js"></script>
         <script src="js/angular.min.js"></script>
         
             <script src="js/ui-bootstrap.min.js"></script>
         <script src="js/ng-intl-tel-input.js"></script>
         <!-- This is the current state of master for formly core. -->
-        <script src="//npmcdn.com/angular-formly@latest/dist/formly.js"></script>
+        <script src="//unpkg.com/angular-formly@latest/dist/formly.js"></script>
         <!-- This is the current state of master for the bootstrap templates -->
-        <script src="//npmcdn.com/angular-formly-templates-bootstrap@latest/dist/angular-formly-templates-bootstrap.js"></script>
+        <script src="//unpkg.com/angular-formly-templates-bootstrap@latest/dist/angular-formly-templates-bootstrap.js"></script>
    <link href="../ui/css/bootstrap.css" rel="stylesheet">
     <link href="../ui/css/master-ui.css" rel="stylesheet">
 
